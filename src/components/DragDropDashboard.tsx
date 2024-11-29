@@ -6,7 +6,7 @@ import { Item, Section, Position, WebSocketMessage } from "./types";
 import { Button } from "@/components/ui/button";
 import { AddMemberModal } from "./AddMemberModal";
 
-const WEBSOCKET_URL = "ws://222.121.208.186:6500";
+const WEBSOCKET_URL = "wss://hcsb.synology.me:6551/";
 
 const downloadJsonFile = <T extends object>(
   data: T,
